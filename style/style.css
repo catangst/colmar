@@ -1,0 +1,42 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'Scope One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Scope One'), local('ScopeOne-Regular'), url(https://fonts.gstatic.com/s/scopeone/v2/_52Fm41u4u2R3EEH0A9bn5Bw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Slabo 27px';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Slabo 27px'), local('Slabo27px-Regular'), url(https://fonts.gstatic.com/s/slabo27px/v3/PuwvqkdbcqU-fCZ9Ed-b7QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Header & Navigation */
+
+.header-container{
+  display:flex;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 1px solid #000000;
+}
+
+.logo {
+  margin-left: 24px;
+}
+
+.colmar{
+  font-family: "Slabo 27px";
+  color: #000000;
+}
+
+.nav-desktop li{
+  display: inline;
+  align-items: center;
+  margin-left: 16px;
+}
